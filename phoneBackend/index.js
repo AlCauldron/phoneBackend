@@ -97,4 +97,6 @@ App.post(url,(request,response)=>{
 })
 
 const PORT = process.env.PORT || 3001
-App.listen(PORT)
+App.listen(PORT,()=>{
+    console.log(`running on port${PORT}`)
+})
